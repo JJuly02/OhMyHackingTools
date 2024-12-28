@@ -1,4 +1,4 @@
-# OhMyHackingTools: A Collection of Hacking and Analysis Utilities
+# OhMyHackingTools - A Collection of Hacking and Analysis Utilities
 
 Welcome to **CyberSecTools**, a repository containing six powerful utilities designed for cybersecurity enthusiasts, reverse engineers, and analysts. These tools focus on analyzing binary data, extracting patterns, decrypting ciphertext, and working with certificates and keys. Each tool is tailored for a specific purpose, ensuring efficiency and simplicity.
 
@@ -69,3 +69,56 @@ CyberSecTools/
 ├── CertKeyMatcher.py            # Matches private keys to certificates.
 ├── VigenereCipherDecrypt.py     # Decrypts Vigenère cipher-encrypted messages.
 ├── CertMetaExtractor.py         # Extracts metadata from certificates.
+```
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Libraries:
+  - `numpy`
+  - `matplotlib`
+  - `cryptography`
+
+Install required libraries:
+```bash
+pip install numpy matplotlib cryptography
+```
+
+---
+
+### Usage
+
+#### Run a tool:
+```bash
+python <ToolName>.py
+```
+
+#### Example:
+```bash
+python FileEntropyAnalysis.py
+```
+
+---
+
+## ⚠️ Disclaimer
+
+These tools are intended for educational and ethical purposes only. Use them responsibly and with proper authorization. The authors are not liable for any misuse of these tools.
+
+---
+
+## 🤝 Contributions
+
+Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+
+This repository is licensed under the [MIT License](LICENSE).
+
+---
+
+Happy hacking! 🚀
